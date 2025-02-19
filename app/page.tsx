@@ -1,3 +1,4 @@
+import Sidebar from "@/components/Sidebar";
 
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <>
       <div className="grid grid-cols-1 lg:grid-cols-10 gap-6">
         <div className="lg:col-span-6">
+          <Sidebar/>
           {/* {user ? <CreatePost /> : null}
 
           <div className="space-y-6">
